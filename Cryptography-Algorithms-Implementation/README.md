@@ -1,26 +1,31 @@
-# Cryptography Algorithms Implementation using Python 🛡️
+Cryptography Algorithms Implementation using Python 🛡️
 
-This repository contains my submission for **Project 6** of the Codec Technologies Internship. 
-It demonstrates the implementation of three fundamental cryptographic concepts:
+This repository contains my submission for Project 6 of the Codec Technologies Internship.
+It demonstrates the implementation of core cryptographic concepts, from basic string manipulation to advanced file-locking mechanisms.
 
-## Included Algorithms:
-1. **AES Encryption (`aes_encryption.py`)**: Demonstrates **Symmetric Encryption** where the same 128-bit key is used to both encrypt and decrypt data.
-2. **RSA Encryption (`rsa_encryption.py`)**: Demonstrates **Asymmetric Encryption** utilizing a 2048-bit Public/Private key pair for highly secure data transmission.
-3. **SHA-256 Hashing (`sha256_hashing.py`)**: Demonstrates cryptographic **Hashing**, creating a fixed-size, irreversible, unique digital fingerprint of a string of text.
+🌟 Features Included:
 
-### How to Run:
-Ensure you have the `pycryptodome` library installed:
-`pip install pycryptodome`
+AES String Encryption (aes_encryption.py): Demonstrates Symmetric Encryption where the same 128-bit key is used to both encrypt and decrypt data.
 
-Run any of the Python scripts directly in your terminal to see the encryption, decryption, and hashing processes in action!
+RSA Encryption (rsa_encryption.py): Demonstrates Asymmetric Encryption utilizing a 2048-bit Public/Private key pair for highly secure data transmission.
 
-### 📸 Execution Screenshots
+SHA-256 Hashing (sha256_hashing.py): Demonstrates cryptographic Hashing, creating a fixed-size, irreversible digital fingerprint.
 
-#### 1. AES Encryption Output
-![AES Output](screenshots/aes_output.png)
+🔥 Advanced AES File Vault (aes_file_encryption.py): A practical, interactive utility that uses PBKDF2 (Password-Based Key Derivation Function 2) with 1,000,000 iterations and a cryptographic salt to turn a human password into a secure 256-bit key to encrypt and decrypt actual files (.enc).
 
-#### 2. SHA-256 Hashing Output
-![SHA-256 Output](screenshots/sha256_output.png)
+⚙️ How to Run:
 
-#### 3. RSA Encryption Output
-![RSA Output](screenshots/rsa_output.png)
+Ensure you have the pycryptodome library installed:
+pip install pycryptodome
+
+(Run the scripts in your terminal to interact with the encryption tools!)
+
+📸 Execution Screenshots
+
+1. Advanced AES File Encryption (File Vault)
+
+2. Basic AES String Encryption
+
+3. SHA-256 Hashing Output
+
+4. RSA Encryption Output
